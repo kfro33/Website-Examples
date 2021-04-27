@@ -1,0 +1,70 @@
+body{background: linear-gradient(35deg, #000000, #423a63, #FFFFFF);}
+
+#title-description{border: 8px ridge #191970;
+        width: 75%;
+        text-align: center;
+        margin: 0 auto;
+        font-family: 'Merriweather Sans', sans-serif;}
+
+#title{text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;}
+
+#description{text-align: center
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;}
+
+#complete-form {
+    width: 800px;
+    margin: 30px auto;
+    height: 800px;
+    color: #FFFFFF;
+    font-family: 'Merriweather Sans', sans-serif;}
+
+#names {margin-top: 20px;
+    padding-top: 10px;
+       margin-left: 30px;
+        margin-bottom: 10px;}
+
+#emails{margin-top: 20px;
+       margin-left: 30px;
+        margin-bottom: 10px;}
+
+#numberz {margin-top: 20px;
+       margin-left: 30px;
+        margin-bottom: 10px;}
+
+#number{width: 200px;}
+
+#dropdown{margin-top: 15px;
+       margin-left: 30px;
+        margin-bottom: 20px;}
+
+#auditor-knowledge{margin-top: 10px;
+       margin-left: 30px;
+        margin-bottom: 10px;}
+
+.knowledge-label{position: relative;
+    display: block;
+    margin-left: 275px;}
+
+#checkbox{margin-top: 10px;
+       margin-left: 30px;
+        margin-bottom: 10px;}
+
+#check-boxes{position: relative;
+    display: block;
+    margin-left: 300px;}
+
+#textarea-stuff{margin-top: 10px;
+       margin-left: 30px;
+        margin-bottom: 10px;}
+
+#textarea{position: relative;
+    display: block;
+    margin-left: 300px;}
+
+#submits{position: relative;
+    display: block;
+    margin-left: 400px;
+    margin-top: 60px;}

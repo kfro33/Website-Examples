@@ -1,0 +1,88 @@
+<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" type"text/css" href="survey.css">
+
+<head>
+    <title>Audit Survey</title>
+
+</head>
+
+<body>
+
+    <div id="title-description">
+        <h1 id="title">Survey of Your Recent Audit</h1>
+
+        <p id="description">We would like to hear how your auditor did.
+            Please be honest with your answers so that we can improve our customer service.</p>
+    </div>
+
+    <div id="complete-form">
+        <form id="survey-form">
+            <div id="names">
+                <label id="name-label" for="name">Agency:</label>
+                <input id="name" name="name" type="text" placeholder="Name" required>
+            </div>
+
+            <div id="emails">
+                <label id="email-label" for="email">Email:</label>
+                <input id="email" name="email" type="email" placeholder="Email Address" required>
+            </div>
+
+            <div id="numberz">
+                <label id="number-label" for="number">Contact Number:</label>
+                <input id="number" type="number" max="10" min="10" name="number" placeholder="phone number" required>
+            </div>
+
+
+            <div id="dropdown">
+                <label id="form-dropdown-label" for="customer">How satisfied were you with your auditor?</label>
+                <select id="customer">
+                    <option disable value="">Select from the following</option>
+                    <option value="unsatisfied">Unsatisfied</option>
+                    <option value="some-what-satisfied">Somewhat Satisfied</option>
+                    <option value="satisfied">Satisfied</option>
+                    <option value="very-satisfied">Very Satisfied</option>
+                </select>
+            </div>
+
+            <div id="auditor-knowledge">
+                <label id="knowledge" for="knowledge">How knowlegeable was your auditor?
+                </label>
+
+                <label class="knowledge-label"><input name="knowledge" type="radio" value="Very Knowlegable">Very
+                    Knowlegeable</label>
+                <label class="knowledge-label"><input type="radio" name="knowledge"
+                        value="Somewhat knowledgeable">Somewhat Knowledgeable</label>
+                <label class="knowledge-label"><input name="knowledge" type="radio" value="stupid">Stupid</label>
+            </div>
+
+            <div id="checkbox">
+                <legend>How did your agency help the audit process?</legend>
+            </div>
+            <div id="check-boxes">
+                <input type="checkbox" name="prepared" value="Records were pulled in order">Records were pulled in
+                order<br>
+                <input type="checkbox" name="prepared" value="Asked questions ahead of time">Asked questions ahead of
+                time<br>
+                <input type="checkbox" name="prepared" value="Read the emails the auditor sent">Read the emails the
+                auditor sent<br>
+                <input type="checkbox" name="prepared" value="Had access to the CCH logs">Had access to the CCH logs<br>
+
+            </div>
+
+            <div id="textarea-stuff">
+                <legend>Please let us know how we can improve:</legend>
+            </div>
+            <div id="textarea">
+                <textarea rows="15" cols="50"></textarea>
+            </div>
+
+            <div id="submits">
+                <button id="submit" type="submit" value="submit">Submit</button>
+            </div>
+
+
+
+        </form>
+
+    </div>
+</body>
